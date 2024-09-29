@@ -1,0 +1,27 @@
+.body {
+	-fx-background-color: linear-gradient(to top, #000000, #434343);
+}
+
+.buttom {
+	-fx-background-color: #3A3A3A; 
+	-fx-text-fill: white;
+}
+
+.buttom:hover  {
+	-fx-background-color: #522222;
+	-fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 5, 0, 0, 2);
+    -fx-background-insets: 0;
+    -fx-background-radius: 3px;
+	-fx-cursor: hand;
+	-fx-transition: all 0.3s ease-in-out;
+}
+
+.header {
+	-fx-background-color: #3A3A3A;
+	-fx-text-fill: white;
+	-fx-font-size: 19px;
+}
+
+.footer {
+	
+}
